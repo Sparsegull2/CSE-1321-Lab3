@@ -32,6 +32,6 @@ class Lab3B {
         float GPA = points / hours;
         Console.WriteLine("Total hours is: "+ hours);
         Console.WriteLine("Total quality points is: "+ points);
-        Console.WriteLine("Your GPA for this semester is "+GPA.ToString("n5"));
+        Console.WriteLine("Your GPA for this semester is "+GPA);
     }
 }
