@@ -21,8 +21,8 @@ class Lab3C {
         int P = int.Parse(Console.ReadLine());
         Console.WriteLine("\nYou entered "+Q+" quarters.");
         Console.WriteLine("You entered "+D+" dimes.");
-        Console.WriteLine("You entered "+N+" nickels");
-        Console.WriteLine("You entered "+P+" pennies");
+        Console.WriteLine("You entered "+N+" nickels.");
+        Console.WriteLine("You entered "+P+" pennies.");
         int dollars = (Q*25 + D*10 + N*5 + P) / 100;
         int cents = (Q*25 + D*10 + N*5 + P) % 100;
         Console.WriteLine("\nYour total is "+dollars+" dollars and "+cents+" cents.");
