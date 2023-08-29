@@ -12,7 +12,7 @@ class Lab3A
 {
     public static void Main(string[] args)
     {
-        Console.Write("Amount owed: ");
+        Console.Write("Amount owed: $");
         float balance = float.Parse(Console.ReadLine());
         Console.Write("APR: ");
         float APR = float.Parse(Console.ReadLine());
